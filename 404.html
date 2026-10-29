@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página não encontrada · RENASCER</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#091839;color:#e5edf8;font:16px/1.5 system-ui,Segoe UI,Roboto,Arial,sans-serif;text-align:center;padding:24px}
+a{display:inline-block;margin-top:14px;background:#ce9548;color:#091839;padding:11px 22px;border-radius:10px;font-weight:700;text-decoration:none}h1{margin:0 0 6px;font-size:28px}p{margin:0;color:#9fb0d3}</style>
+<main><h1>Página não encontrada</h1><p>O endereço digitado não existe neste site.</p><a id="v" href="/">Ir para o sistema</a></main>
+<script>
+// em "site de projeto" do GitHub Pages o endereço é /nome-do-repositorio/, então o botão aponta para a raiz do projeto
+var p=location.pathname.split('/').filter(Boolean),h=location.hostname.endsWith('github.io')&&p.length?'/'+p[0]+'/':'/';document.getElementById('v').href=h;
+</script>
+</html>
